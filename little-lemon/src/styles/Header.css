@@ -1,0 +1,18 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 28px 0px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+.nav{
+    display: flex;
+    align-items: center;
+}
+.nav .nav-list{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    gap: 20px;
+    font-size: 18px;
+}

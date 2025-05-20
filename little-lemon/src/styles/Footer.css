@@ -1,0 +1,39 @@
+.footer{
+    background-color: var(--color-secondary);
+}
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    width: 900px;
+    margin: 0 auto;
+    padding: 40px 0;
+}
+.item-footer{
+    padding-top: 40px;
+}
+.footer-container .footer-logo{
+    width: 171px;
+    height: 298px;
+}
+.footer-navigation ul, .socoal-media-links ul{
+    list-style-type: none;
+    a{
+        text-decoration: none;
+    }
+}
+.footer-container h4{
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.footer-container ul a{
+    font-size: 18px;
+    font-weight: 400;
+    color: #333;
+}
+.footer-container ul a:hover{
+    text-decoration: underline;
+    transition: all .1s ease;
+    color: var(--color-primary-yellow);
+}
+
