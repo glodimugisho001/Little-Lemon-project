@@ -10,3 +10,7 @@
     --color-button-text: #333333;
     --color-price: #EE9972;
 }
+a{
+    text-decoration: none !important; 
+    color: #333333;
+}

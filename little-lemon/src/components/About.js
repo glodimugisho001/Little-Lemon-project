@@ -1,6 +1,6 @@
 import React from 'react'
 import  marioAndadrianA from "../assets/Mario and Adrian A.webp"
-import  marioAndadrianB from "../assets/Mario and Adrian b.webp"
+import  marioAndadrianB from "../assets/Mario and Adrian B.webp"
 import "../styles/About.css"
 
 export default function About() {

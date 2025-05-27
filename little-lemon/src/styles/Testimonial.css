@@ -67,8 +67,51 @@
   right: -10px;
 }
 
+@media (max-width: 900px) {
+    .testimonial-container {
+        padding: 2rem 1rem;
+    }
+
+    .testimonial-section {
+        padding: 1rem;
+    }
+
+    .testimonial-card {
+        width: 220px;
+    }
+
+    .scroll-btn {
+        padding: 0.5rem;
+    }
+}
+
 @media (max-width: 600px) {
-  .testimonial-card {
-    width: 200px;
-  }
+    .testimonial-container {
+        padding: 1.5rem 0.5rem;
+    }
+
+    .testimonial-section {
+        padding: 0.5rem;
+    }
+
+    .testimonial-card {
+        width: 200px;
+    }
+
+    .testimonial-card img {
+        height: 120px;
+    }
+
+    .scroll-btn {
+        padding: 0.4rem;
+        font-size: 0.8rem;
+    }
+
+    .scroll-btn.left {
+        left: -5px;
+    }
+
+    .scroll-btn.right {
+        right: -5px;
+    }
 }

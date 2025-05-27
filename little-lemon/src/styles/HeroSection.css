@@ -50,3 +50,66 @@
 .hero-image img{
     border-radius: 20px;
 }
+
+@media (max-width: 900px) {
+    .hero-overlay {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 0 20px;
+    }
+
+    .hero-overlay .hero-text {
+        padding: 40px 0;
+    }
+
+    .hero-text h1 {
+        font-size: 48px;
+    }
+
+    .hero-text h2 {
+        font-size: 32px;
+    }
+
+    .hero-text p {
+        width: 100%;
+        max-width: 500px;
+        margin: 0 auto 30px;
+    }
+
+    .hero-overlay .hero-image {
+        position: relative;
+        top: 0;
+        right: 0;
+        margin-top: 30px;
+    }
+
+    .hero-image img {
+        width: 100%;
+        max-width: 400px;
+        height: auto;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero-text h1 {
+        font-size: 36px;
+    }
+
+    .hero-text h2 {
+        font-size: 24px;
+    }
+
+    .hero-text p {
+        font-size: 14px;
+    }
+
+    .hero-text .reserve-button {
+        font-size: 14px;
+        padding: 8px 16px;
+    }
+
+    .hero-image img {
+        max-width: 300px;
+    }
+}
